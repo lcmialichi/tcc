@@ -1,0 +1,18 @@
+// {
+//     "editor.tokenColorCustomizations": {
+//         "[1mm - Monokai]": {
+//             "comments": "#b6b6b6d7",
+
+            
+//         }
+//     }
+// }
+
+{
+    "workbench.colorCustomizations": {
+        "comments": "#b6b6b6d7",
+        "editor.background":"#1a1818",
+        "editor.wordHighlightBackground":"#d6cce750",
+        "editor.lineHighlightBackground": "#3931474f"
+    }
+}

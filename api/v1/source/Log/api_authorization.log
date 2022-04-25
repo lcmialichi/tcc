@@ -1,0 +1,10 @@
+[2022-04-24T19:23:02.507389-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
+[2022-04-24T20:29:55.054407-03:00] api.INFO: Usuario ou senha incorretos [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.cota","senha":"f01dec6"}}
+[2022-04-24T20:30:01.926836-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
+[2022-04-24T20:30:31.250760-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
+[2022-04-24T20:45:07.902135-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
+[2022-04-24T20:45:38.551007-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
+[2022-04-24T20:46:55.283679-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
+[2022-04-24T20:55:42.203788-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
+[2022-04-24T20:58:01.637835-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
+[2022-04-24T20:58:06.560244-03:00] api.INFO: Acesso permitido [] {"server":{"REMOTE_ADDR":"127.0.0.1"},"credentials":{"usuario":"lucas.costa","senha":"f01dec6"}}
