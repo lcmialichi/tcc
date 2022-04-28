@@ -86,4 +86,9 @@ class User
     {
         return $this->userInfo;
     }
+
+    public function getUserInfo()
+    {
+        return $this->userInfo;
+    }
 }

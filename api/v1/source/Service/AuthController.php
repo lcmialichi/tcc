@@ -33,12 +33,17 @@ class authController
             $auth->getAccess();
             $auth->encrypt();
             $auth->insertEncryptedSession();
-
+            $userInfo = $auth->getUserInfo();
             return [
                 "status" => true,
                 "message" => null,
                 "data" => [
-                    "jwt" => $auth->getAccesToken()
+                    "jwt" => $auth->getAccesToken(),
+                    "user" => [
+                        "name" => $userInfo['user_name'],
+                        "userType" => $userInfo['user_type']
+                    ]
+
                 ]
             ];
         }
