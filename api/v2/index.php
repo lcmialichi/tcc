@@ -11,7 +11,7 @@ $router->post("/authenticate", "AuthController:authenticate");
 /**Consulta CRN */
 
 $router->group("crn");
-$router->get("/get/{crn}", "CrnLocate:getCRN");
+$router->get("/get/{crn}", "CrnController:consult");
 
 /** Erro */
 $router->group("erro")->namespace('');

@@ -8,7 +8,7 @@ trait DBConnect{
     public static function PDOSetConnection(){
             
         $connection = new \PDO(PDO_CONFIG, DB_CONFIG['username'], DB_CONFIG['password']);
-        $connection->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION); //retornará uma exeção caso algo de errado
+        $connection->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION); //retornará uma exception caso algo de errado
         
         return new \ClanCats\Hydrahon\Builder("mysql", function ($query, $queryString, $queryParameters) use ($connection){
 

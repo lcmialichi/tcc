@@ -26,6 +26,7 @@ class authController
 
         if (!isset($credenciais['usuario']) || !isset($credenciais['senha'])) {
             throw new \Exception("Necessario informar usuario e senha.", 401);
+
         } else {
 
             $auth = new User;
